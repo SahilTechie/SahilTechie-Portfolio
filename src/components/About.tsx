@@ -29,7 +29,7 @@ const About: React.FC = () => {
                     Education
                   </h3>
                   <p className="text-gray-600 dark:text-gray-400">
-                    Currently pursuing Bachelor Of Technology (B.Tech) at Gitam University, . 
+                    Currently pursuing Bachelor Of Technology (B.Tech) at Gitam University, Visakhapatnam.
                     Background in Computer Science and Business Systems (CSBS), combining technical skills with business understanding.
                   </p>
                 </div>

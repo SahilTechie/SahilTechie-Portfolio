@@ -22,7 +22,7 @@ const Hero: React.FC = () => {
               <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white mb-6">
                 Hi, I'm{' '}
                 <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                  Your Name
+                  Sahil
                 </span>
               </h1>
               <h2 className="text-2xl lg:text-3xl font-semibold text-gray-700 dark:text-gray-300 mb-6">
@@ -30,7 +30,7 @@ const Hero: React.FC = () => {
               </h2>
               <p className="text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-2xl">
                 Passionate about creating innovative web solutions and driving business growth through technology. 
-                Currently pursuing Master's in Project Management at Northeastern University, Boston.
+                Currently pursuing Bachelor Of Technology (B.Tech) in Computer Science And Business Systems at Gitam University, Vizag.
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8">
