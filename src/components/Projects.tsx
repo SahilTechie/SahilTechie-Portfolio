@@ -31,12 +31,12 @@ const Projects: React.FC = () => {
       icon: CheckSquare
     },
     {
-      title: "Random GIF Generator",
-      description: "A minimal React app that fetches and displays random GIFs using the Giphy API. Built with Tailwind CSS and Axios for styling and data handling.",
-      image: "/public/Gif.png",
+      title: "Smart Web Bot 🤖",
+      description: "An interactive web bot that provides quick answers to user queries using the Giphy API for GIF responses.",
+      image: "/public/SmartWebBot.png",
       technologies: ["REACT", " Tailwind CSS", "Axios", "Giphy API", "Git & GitHub"],
       github: "https://github.com/SahilTechie",
-      demo: "https://random-gif-starter-ten.vercel.app/",
+      demo: "https://smart-web-bot.vercel.app/",
       icon: Gamepad2
     }
   ];
