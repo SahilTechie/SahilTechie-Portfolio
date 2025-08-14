@@ -6,7 +6,7 @@ It is designed to highlight my expertise, demonstrate my work, and provide ways 
 
 ## 🚀 Deployment
 This portfolio is deployed using **codesandbox.io**:  
-👉 [Live Demo](https://sahil-techie-portfolio.vercel.app/)
+👉 [Live Demo](https://57pd2j-5173.csb.app/)
 
 ## 🌟 Features
 ✅ Fully responsive design (mobile-friendly)  
