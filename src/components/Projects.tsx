@@ -13,12 +13,12 @@ const Projects: React.FC = () => {
       icon: Shield
     },
     {
-      title: "Tic Tac Toe Game",
-      description: "A sleek Tic Tac Toe game with a modern gradient design. Instantly shows results and offers quick new game options.",
-      image: "/public/TicTacToe.png",
-      technologies: ["HTML", "CSS", "JAVASCRIPT", "NETLIFY"],
+      title: "Authn-Authz",
+      description: "A modern, secure authentication system built with React.js, Node.js, and MongoDB. Features include user registration, login, JWT authentication, and a simple UI.",
+      technologies: ["HTML", "CSS", "JAVASCRIPT", "RENDER"],
+      image: "/public/auth.png",
       github: "https://github.com/SahilTechie",
-      demo: "https://genuine-melba-e83565.netlify.app/",
+      demo: "https://authn-authz.onrender.com",
       icon: Bot
     },
     {
