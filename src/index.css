@@ -60,6 +60,280 @@
   ::-webkit-scrollbar-thumb:hover {
     @apply from-blue-600 to-purple-600;
   }
+
+  /* Sliding Animations */
+  .animate-slide-in-left {
+    opacity: 0;
+    transform: translateX(-100px);
+    animation: slide-in-left 0.8s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  }
+
+  .animate-slide-in-right {
+    opacity: 0;
+    transform: translateX(100px);
+    animation: slide-in-right 0.8s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  }
+
+  .animate-slide-in-up {
+    opacity: 0;
+    transform: translateY(50px);
+    animation: slide-in-up 0.8s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  }
+
+  @keyframes slide-in-left {
+    from {
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes slide-in-right {
+    from {
+      opacity: 0;
+      transform: translateX(100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes slide-in-up {
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* Certificate Carousel 3D Animation */
+  .certificate-carousel input[type=radio] {
+    display: none;
+  }
+
+  .certificate-carousel .card {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transition: transform 0.4s ease;
+    cursor: pointer;
+  }
+
+  .certificate-carousel .container {
+    width: 100%;
+    max-width: 900px;
+    height: 500px;
+    transform-style: preserve-3d;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .certificate-carousel .cards {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+  }
+
+  .certificate-carousel .card-content {
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s ease;
+  }
+
+  /* Left card positioning */
+  .certificate-carousel #cert-1:checked ~ .cards #card-3,
+  .certificate-carousel #cert-2:checked ~ .cards #card-1,
+  .certificate-carousel #cert-3:checked ~ .cards #card-2 {
+    transform: translateX(-60%) scale(0.8);
+    opacity: 0.6;
+    z-index: 0;
+  }
+
+  /* Right card positioning */
+  .certificate-carousel #cert-1:checked ~ .cards #card-2,
+  .certificate-carousel #cert-2:checked ~ .cards #card-3,
+  .certificate-carousel #cert-3:checked ~ .cards #card-1 {
+    transform: translateX(60%) scale(0.8);
+    opacity: 0.6;
+    z-index: 0;
+  }
+
+  /* Center card positioning */
+  .certificate-carousel #cert-1:checked ~ .cards #card-1,
+  .certificate-carousel #cert-2:checked ~ .cards #card-2,
+  .certificate-carousel #cert-3:checked ~ .cards #card-3 {
+    transform: translateX(0) scale(1);
+    opacity: 1;
+    z-index: 1;
+  }
+
+  .certificate-carousel #cert-1:checked ~ .cards #card-1 .card-content,
+  .certificate-carousel #cert-2:checked ~ .cards #card-2 .card-content,
+  .certificate-carousel #cert-3:checked ~ .cards #card-3 .card-content {
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  }
+
+  /* Certificate info panel */
+  .certificate-carousel .info-panel {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.9));
+    backdrop-filter: blur(20px);
+    border-radius: 16px;
+    min-width: 400px;
+    padding: 24px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+
+  .dark .certificate-carousel .info-panel {
+    background: linear-gradient(135deg, rgba(31, 41, 55, 0.95), rgba(31, 41, 55, 0.9));
+  }
+
+  .certificate-carousel .info-area {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    height: 120px;
+  }
+
+  .certificate-carousel .cert-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: transform 0.4s ease-in-out;
+  }
+
+  .certificate-carousel #cert-1:checked ~ .info-panel .cert-info {
+    transform: translateY(0);
+  }
+
+  .certificate-carousel #cert-2:checked ~ .info-panel .cert-info {
+    transform: translateY(-120px);
+  }
+
+  .certificate-carousel #cert-3:checked ~ .info-panel .cert-info {
+    transform: translateY(-240px);
+  }
+
+  .certificate-carousel .cert-title {
+    color: #374151;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    margin-bottom: 8px;
+  }
+
+  .dark .certificate-carousel .cert-title {
+    color: #f9fafb;
+  }
+
+  .certificate-carousel .cert-details {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 12px;
+  }
+
+  .certificate-carousel .cert-issuer,
+  .certificate-carousel .cert-date {
+    font-size: 14px;
+    line-height: 20px;
+    color: #6b7280;
+  }
+
+  .dark .certificate-carousel .cert-issuer,
+  .dark .certificate-carousel .cert-date {
+    color: #9ca3af;
+  }
+
+  .certificate-carousel .cert-date {
+    font-weight: 500;
+    margin-left: auto;
+  }
+
+  .certificate-carousel .progress-bar {
+    height: 4px;
+    width: 100%;
+    background-color: #e5e7eb;
+    border-radius: 2px;
+    overflow: hidden;
+    margin-top: 12px;
+  }
+
+  .dark .certificate-carousel .progress-bar {
+    background-color: #4b5563;
+  }
+
+  .certificate-carousel .progress {
+    display: block;
+    position: relative;
+    height: 100%;
+    background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+    border-radius: 2px;
+    transition: width 0.4s ease;
+  }
+
+  .certificate-carousel #cert-1:checked ~ .info-panel .progress {
+    width: 100%;
+  }
+
+  .certificate-carousel #cert-2:checked ~ .info-panel .progress {
+    width: 85%;
+  }
+
+  .certificate-carousel #cert-3:checked ~ .info-panel .progress {
+    width: 95%;
+  }
+
+  /* Navigation dots */
+  .certificate-carousel .nav-dots {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 20px;
+  }
+
+  .certificate-carousel .nav-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #d1d5db;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .dark .certificate-carousel .nav-dot {
+    background-color: #6b7280;
+  }
+
+  .certificate-carousel .nav-dot:hover {
+    background-color: #9ca3af;
+    transform: scale(1.1);
+  }
+
+  .certificate-carousel #cert-1:checked ~ .nav-dots .nav-dot:nth-child(1),
+  .certificate-carousel #cert-2:checked ~ .nav-dots .nav-dot:nth-child(2),
+  .certificate-carousel #cert-3:checked ~ .nav-dots .nav-dot:nth-child(3) {
+    background: linear-gradient(45deg, #3b82f6, #8b5cf6);
+    transform: scale(1.2);
+  }
 }
 
 /* Dark mode support */

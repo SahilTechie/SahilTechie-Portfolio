@@ -41,7 +41,7 @@ const Hero: React.FC = () => {
                   View My Work
                 </button>
                 <button
-                  onClick={() => window.open('/Sahil-Mallelwar-Resume.pdf', '_blank')}
+                  onClick={() => window.open('/SahilMallelwar_Resume.pdf', '_blank')}
                   className="px-8 py-3 bg-gradient-to-r from-green-500 to-teal-600 text-white rounded-lg font-semibold hover:shadow-lg hover:scale-105 transition-all duration-300 hover:from-green-600 hover:to-teal-700 transform hover:rotate-1"
                 >
                   Resume
