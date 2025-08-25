@@ -9,7 +9,7 @@ Currently pursuing **Bachelor of Technology (B.Tech) in Computer Science and Bus
 
 ## 🌐 Live Demo
 
-👉 **[View Live Portfolio](https://57pd2j-5173.csb.app/)**
+👉 **[View Live Portfolio](https://sahiltechieportfolio.netlify.app/)**
 
 ## ✨ Key Features
 
@@ -272,6 +272,7 @@ I'm always excited to connect with fellow developers, potential collaborators, a
 [![LinkedIn](https://img.shields.io/badge/-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/sahil-mallelwar-439082325)
 
 </div>
+
 
 
 
