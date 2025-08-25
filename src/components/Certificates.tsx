@@ -10,7 +10,7 @@ const Certificates: React.FC = () => {
       issuer: "Zidio Development",
       date: "Feb-April 2025",
       description: "Comprehensive course covering React, Node.js, MongoDB, and modern web development practices.",
-      image: "/public/zidio.png",
+      image: "/zidio.png",
       skills: ["React.js", "Node.js", "MongoDB", "Express.js"],
       verificationUrl: "/certificates/Zidio_Completion_Certificate.pdf",
       icon: Building2
@@ -20,7 +20,7 @@ const Certificates: React.FC = () => {
       issuer: "Amazon Web Services",
       date: "2024",
       description: "Cloud computing fundamentals, AWS services, and cloud architecture best practices.",
-      image: "/public/aws.png",
+      image: "/aws.png",
       skills: ["AWS", "Cloud Computing", "EC2", "S3"],
       verificationUrl: "/certificates/SAHIL_MALLELWAR AWS.pdf",
       icon: Award
@@ -30,7 +30,7 @@ const Certificates: React.FC = () => {
       issuer: "Google",
       date: "2024",
       description: "Google technologies, development practices, and modern web/mobile development frameworks.",
-      image: "/public/google.png",
+      image: "/google.png",
       skills: ["Google APIs", "Android", "Web Development", "Mobile"],
       verificationUrl: "/certificates/SAHIL_MALLELWAR Google.pdf",
       icon: Building2

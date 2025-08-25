@@ -6,7 +6,7 @@ const Projects: React.FC = () => {
     {
       title: "DevDetective 🔍",
       description: "A sleek and responsive GitHub profile detective web app that fetches and displays user profile information using GitHub's public API.",
-      image: "/public/Dev.png",
+      image: "/Dev.png",
       technologies: ["HTML", "CSS", "JAVASCRIPT", "TAILWIND", "GitHub REST API"],
       github: "https://github.com/SahilTechie",
       demo: "https://lrc9s5.csb.app/",
@@ -16,7 +16,7 @@ const Projects: React.FC = () => {
       title: "Authn-Authz",
       description: "A modern, secure authentication system built with React.js, Node.js, and MongoDB. Features include user registration, login, JWT authentication, and a simple UI.",
       technologies: ["HTML", "CSS", "JAVASCRIPT", "RENDER"],
-      image: "/public/auth.png",
+      image: "/auth.png",
       github: "https://github.com/SahilTechie",
       demo: "https://authn-authz.onrender.com",
       icon: Bot
@@ -24,7 +24,7 @@ const Projects: React.FC = () => {
     {
       title: "Discord Landing Page Clone",
       description: "A responsive and visually accurate clone of Discord’s official landing page. Designed to replicate its layout, style, and interactive elements closely.",
-      image: "/public/Discord.png",
+      image: "/Discord.png",
       technologies: ["HTML", "CSS", "JAVASCRIP", "TAILWIND"],
       github: "https://github.com/SahilTechie",
       demo: "https://discordclonep5.netlify.app/",
@@ -33,7 +33,7 @@ const Projects: React.FC = () => {
     {
       title: "CampusResolvePortal",
       description: "A secure and anonymous portal for campus grievances, enabling students and staff to submit, track, and resolve issues efficiently.",
-      image: "/public/crp.png",
+      image: "/crp.png",
       technologies: ["React", "Tailwind CSS", "Node.js", "Express.js", "MongoDB"],
       github: "https://github.com/SahilTechie",
       demo: "https://campus-resolve-portal-crp.vercel.app/",
@@ -42,7 +42,7 @@ const Projects: React.FC = () => {
     {
       title: "Smart Web Bot 🤖",
       description: "An interactive web bot that provides quick answers to user queries using the Giphy API for GIF responses.",
-      image: "/public/SmartWebBot.png",
+      image: "/SmartWebBot.png",
       technologies: ["REACT", " Tailwind CSS", "Axios", "Giphy API", "Git & GitHub"],
       github: "https://github.com/SahilTechie",
       demo: "https://smart-web-bot.vercel.app/",
@@ -51,7 +51,7 @@ const Projects: React.FC = () => {
     {
       title: " Razorpay Landing Page Clone",
       description: "A pixel-perfect, responsive clone of Razorpay's official landing page, built using Tailwind CSS. This project was created for frontend UI practice using modern, utility-first CSS and is fully responsive across all devices.",
-      image: "/public/RazorPay.png",
+      image: "/RazorPay.png",
       technologies: ["HTML", " Tailwind CSS","VSCODE","Git & GitHub"],
       github: "https://github.com/SahilTechie",
       demo: "https://genuine-melba-e83565.netlify.app/",
