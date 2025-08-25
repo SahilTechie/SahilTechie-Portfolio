@@ -31,12 +31,30 @@ const Projects: React.FC = () => {
       icon: CheckSquare
     },
     {
+      title: "CampusResolvePortal",
+      description: "A secure and anonymous portal for campus grievances, enabling students and staff to submit, track, and resolve issues efficiently.",
+      image: "/public/crp.png",
+      technologies: ["React", "Tailwind CSS", "Node.js", "Express.js", "MongoDB"],
+      github: "https://github.com/SahilTechie",
+      demo: "https://campus-resolve-portal-crp.vercel.app/",
+      icon: Gamepad2
+    },
+    {
       title: "Smart Web Bot 🤖",
       description: "An interactive web bot that provides quick answers to user queries using the Giphy API for GIF responses.",
       image: "/public/SmartWebBot.png",
       technologies: ["REACT", " Tailwind CSS", "Axios", "Giphy API", "Git & GitHub"],
       github: "https://github.com/SahilTechie",
       demo: "https://smart-web-bot.vercel.app/",
+      icon: Gamepad2
+    },
+    {
+      title: " Razorpay Landing Page Clone",
+      description: "A pixel-perfect, responsive clone of Razorpay's official landing page, built using Tailwind CSS. This project was created for frontend UI practice using modern, utility-first CSS and is fully responsive across all devices.",
+      image: "/public/RazorPay.png",
+      technologies: ["HTML", " Tailwind CSS","VSCODE","Git & GitHub"],
+      github: "https://github.com/SahilTechie",
+      demo: "https://genuine-melba-e83565.netlify.app/",
       icon: Gamepad2
     }
   ];
